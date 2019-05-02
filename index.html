@@ -6,13 +6,86 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style.css" rel="stylesheet" type="text/css">
         <script src="main.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="app">
-            <section class="shape"></section>
-            <section class="shape"></section>
-            <section class="shape"></section>
-            <section class="shape"></section>
+        <div class="d-flex flex-column container-fluid align-content-center" id="app">
+            <div class="row container-fluid d-flex flex-column" id="enemy-side">
+                <div class="row">
+                    <h1>Enemy side</h1>
+                </div>
+                <div class="row">
+
+                    <img src="" class="col-sm-4 sector" id="A1"></img>
+                    <img src="./assets/ships/battleship.png" class="col-sm-4 sector hasShip" id="A2"></img>
+                    <img src="" class="col-sm-4 sector" id="A3"></img>
+                    <img src="" class="col-sm-4 sector" id="A4"></img>
+                </div>
+                <div class="row">
+                        <img src="" class="col-sm-4 sector" id="B1"></img>
+                        <img src="" class="col-sm-4 sector" id="B2"></img>
+                        <img src="" class="col-sm-4 sector" id="B3"></img>
+                        <img src="" class="col-sm-4 sector" id="B4"></img>
+                </div>
+                <div class="row">
+                        <img src="" class="col-sm-4 sector" id="C1"></img>
+                        <img src="" class="col-sm-4 sector" id="C2"></img>
+                        <img src="" class="col-sm-4 sector" id="C3"></img>
+                        <img src="./assets/ships/carrier.png" class="col-sm-4 sector hasShip" id="C4"></img>
+                </div>
+                <div class="row">
+                        <img src="" class="col-sm-4 sector" id="D1"></img>
+                        <img src="./assets/ships/submarine.png" class="col-sm-4 sector hasShip" id="D2"></img>
+                        <img src="" class="col-sm-4 sector" id="D3"></img>
+                        <img src="" class="col-sm-4 sector" id="D4"></img>
+                </div>
+                <div class="row">
+                        <img src="" class="col-sm-4 sector" id="E1"></img>
+                        <img src="./assets/ships/destroyer.png" class="col-sm-4 sector hasShip" id="E2"></img>
+                        <img src="" class="col-sm-4 sector" id="E3"></img>
+                        <img src="" class="col-sm-4 sector" id="E4"></img>
+                </div>
+            </div>
+
+            <div class="row container fluid d-flex flex-column" id="friendly-side">
+                <div class="row">
+                    <h1>Friendly side</h1>
+                </div>
+                <div class="row">
+                        <img src="./assets/ships/battleship.png" class="col-sm-4 sector hasShip" id="F1"></img>
+                        <img src="" class="col-sm-4 sector" id="F2"></img>
+                        <img src="" class="col-sm-4 sector" id="F3"></img>
+                        <img src="" class="col-sm-4 sector" id="F4"></img>
+                </div>
+                <div class="row">
+                        <img src="" class="col-sm-4 sector"id="G1"></img>
+                        <img src="" class="col-sm-4 sector"id="G2"></img>
+                        <img src="" class="col-sm-4 sector"id="G3"></img>
+                        <img src="" class="col-sm-4 sector"id="G4"></img>
+                </div>
+                <div class="row">
+                        <img src="" class="col-sm-4 sector"id="H1"></img>
+                        <img src="" class="col-sm-4 sector"id="H2"></img>
+                        <img src="" class="col-sm-4 sector"id="H3"></img>
+                        <img src="" class="col-sm-4 sector"id="H4"></img>
+                </div>
+                <div class="row">
+                        <img src="" class="col-sm-4 sector" id="I1"></img>
+                        <img src="" class="col-sm-4 sector" id="I2"></img>
+                        <img src="" class="col-sm-4 sector" id="I3"></img>
+                        <img src="" class="col-sm-4 sector" id="I4"></img>
+                </div>
+                <div class="row">
+                        <img src="" class="col-sm-4 sector" id="J1"></img>
+                        <img src="" class="col-sm-4 sector" id="J2"></img>
+                        <img src="" class="col-sm-4 sector" id="J3"></img>
+                        <img src="" class="col-sm-4 sector" id="J4"></img>
+                </div>
+
+            </div>
         </div>
     </body>
 </html>
