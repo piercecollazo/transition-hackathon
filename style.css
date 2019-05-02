@@ -1,0 +1,14 @@
+.app {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+}
+
+.shape {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
