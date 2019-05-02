@@ -11,4 +11,5 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    transition: background-color 3s, border-radius 8s;
 }
